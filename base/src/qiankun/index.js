@@ -9,7 +9,14 @@ const apps = [
    * container: 微应用挂载节点 - 微应用加载完成后将挂载在该节点上
    * activeRule: 微应用触发的路由规则 - 触发路由规则后将加载该微应用
    */
+  {
+    name: 'vueDemo',
+    entry: '//localhost:8082',
+    container: '#container',
+    activeRule: '/vue-demo',
+  },
 ];
+
 
 import { message } from 'element-ui';
 import {

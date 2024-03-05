@@ -15,8 +15,8 @@
           <el-menu-item index="/react">主页面</el-menu-item>
         </el-submenu>
         <el-submenu index="3">
-          <template slot="title"><i class="el-icon-menu"></i>Vue子应用</template>
-          <el-menu-item index="/vue">主页面</el-menu-item>
+          <template slot="title"><i class="el-icon-menu"></i>Vue2子应用Demo</template>
+          <el-menu-item index="/vue-demo">主页面</el-menu-item>
         </el-submenu>
         <el-submenu index="4">
           <template slot="title"><i class="el-icon-menu"></i>Vue3子应用</template>
